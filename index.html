@@ -99,26 +99,36 @@
     <div id="contato">
         <section>
             <form name="form">
-                <h1>Contato<br><br></h1>
+                <h1 id="titulo">Contato</h1><br><br>
 
-                <p class=nome><label for="nome">NOME</label></p>
-                <input type="text" id="idnome" placeholder="Digite seu nome">
-
-                <p class=telefone><label for="telefone">TELEFONE</label></p>
-                <input type="text" id="idtelefone" placeholder="Digite seu telefone">
-
-                <p class=email><label for="email">EMAIL</label></p>
-                <input type="text" id="idemail" placeholder="Digite seu email">
-
-               <textarea placeholder="Digite sua mensagem"></textarea>
-
-               <p class="submit"><input type="submit" value="Enviar"></p></form>
-
-                <div id="map">                      
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.3247730277944!2d-46.73036142692913!3d-23.52081857882771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8c1d371ec31%3A0x671c9325c275132e!2sETEC%20Prof%C2%B0%20Basilides%20de%20Godoy!5e0!3m2!1spt-BR!2sbr!4v1686268868114!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div id="divcontato">
+                    <table id="tableform">
+                        <tr>
+                            <td id="pnome">Nome:</td>
+                            <td><input name="nome" type="name" id="nome" size="45" maxlength="150"/></td>   
+                        </tr>
+                        <tr class="tretm">
+                            <td id="pemail">Email:</td>
+                            <td><input name="email" type="text" id="email" size="45" maxlength="150"/></td>
+                        </tr>
+                        <tr>
+                            <td id="ptelefone">Telefone:</td>
+                            <td><input name="telefone" type="number" id="telefone" size="45" maxlength="150"/></td>
+                        </tr>
+                        <tr>
+                            <td id="pmensagem">Mensagem:</td>
+                            <td><textarea name="mensagem" cols="15" rows="2" id="mensagem" input></textarea></td>
+                        </tr>
+                    </table>
+                    <div id="map">                      
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.3247730277944!2d-46.73036142692913!3d-23.52081857882771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8c1d371ec31%3A0x671c9325c275132e!2sETEC%20Prof%C2%B0%20Basilides%20de%20Godoy!5e0!3m2!1spt-BR!2sbr!4v1686268868114!5m2!1spt-BR!2sbr" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
                 </div>
         </section>
     </div>
-    <script src="codigo.js"></script>
+    <script src="script.js"></script>
 </body>
+<footer>
+    <p>copyright@2023 - todos os direitos atualizados</p>
+</footer>
 </html>

@@ -1,4 +1,4 @@
-let imagens = ['./img/imgcar1.png', './img/im1.png'];
+let imagens = [];
 let index = 0;
 let time = 2000;
 
@@ -13,3 +13,5 @@ function slideShow(){
 
     setTimeout('slideShow()', time);
 }
+
+slideShow();
