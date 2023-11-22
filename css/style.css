@@ -19,7 +19,7 @@ html{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-@media screen and (min-width: 0) and (max-width: 544px){
+@media screen and (min-width: 0) and (max-width: 576px){
     #titulo{
         font-size: 41px;
     }

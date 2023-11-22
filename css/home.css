@@ -16,7 +16,7 @@
     height: 400px;
 }
 
-@media screen and (min-width: 0) and (max-width: 544px){
+@media screen and (min-width: 0) and (max-width: 576px){
     #divcarrocel{
         width: 400px;
         height: 180px;
