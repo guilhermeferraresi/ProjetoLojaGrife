@@ -15,9 +15,9 @@
 .carde{
     width: 202px;
     height: 335px;
-    background-color: #fff;
     margin-top: 50px;
     margin-left: calc((100% - 808px)/3);
+    background-color: #fff;   
     text-transform: uppercase;
     text-align: center;
     box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
@@ -65,4 +65,225 @@
     font-family: Abril Fatface, Arial;
     font-size: 28px;
     margin-top: -10px;
+}
+.card1h{
+    display: none;
+}
+.card2h{
+    display: none;
+}
+.card3h{
+    display: none;
+}
+.card4h{
+    display: none;
+}
+.card1p{
+    display: none;
+}
+.card2{
+    display: none;
+}
+.card3{
+    display: none;
+}
+.card4{
+    display: none;
+}
+.card5{
+    display: none;
+}
+.card6{
+    display: none;
+}
+.card7{
+    display: none;
+}
+.card8{
+    display: none;
+}
+
+@media screen and (min-width: 0) and (max-width: 544px){
+    #home{
+        height: 920px;
+    }
+    #produtos{
+        height: 1390px;
+    }
+    .card{
+        display: none;
+    }
+    .carde{
+        display: none;
+    }
+    .card1e{
+        display: none;
+    }
+    .card1{
+        display: none;
+    }
+    .numero{
+        color: #000;
+        font-family: Abril Fatface, Arial;
+        font-size: 27px;
+        margin-top: -32px;
+    }
+
+    .card1h{
+        display: flex;
+        flex-direction: column;
+        width: 180px;
+        margin-left: calc((100% - 360px) / 3);
+        margin-top: -690px;
+        background-color: #fff;   
+        text-transform: uppercase;
+        text-align: center;
+        box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+        font-family: Inter, Arial;
+        border-radius: 15px;
+    }
+    .card2h{
+        display: flex;
+        flex-direction: column;
+        width: 180px;
+        margin-left: calc(((100% - 360px) / 3) * 2 + 180px);
+        margin-top: -690px;
+        background-color: #fff;   
+        text-transform: uppercase;
+        text-align: center;
+        box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+        font-family: Inter, Arial;
+        border-radius: 15px;
+    }
+    .card3h{
+        display: flex;
+        flex-direction: column;
+        width: 180px;
+        margin-left: calc((100% - 360px) / 3);
+        margin-top: -360px;
+        background-color: #fff;   
+        text-transform: uppercase;
+        text-align: center;
+        box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+        font-family: Inter, Arial;
+        border-radius: 15px;
+    }
+    .card4h{
+        display: flex;
+        flex-direction: column;
+        width: 180px;
+        margin-left: calc(((100% - 360px) / 3) * 2 + 180px);
+        margin-top: -360px;
+        background-color: #fff;   
+        text-transform: uppercase;
+        text-align: center;
+        box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+        font-family: Inter, Arial;
+        border-radius: 15px;
+    }
+    
+    .card1p{
+        display: flex;
+        flex-direction: column;
+        width: 180px;
+        margin-left: calc((100% - 360px) / 3);
+        margin-top: 20px; 
+        background-color: #fff;   
+        text-transform: uppercase;
+        text-align: center;
+        box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+        font-family: Inter, Arial;
+        border-radius: 15px;
+    }
+    .card2{
+        display: flex;
+        flex-direction: column;
+        width: 180px;
+        margin-left: calc(((100% - 360px) / 3) * 2 + 180px);
+        margin-top: -290px; 
+        background-color: #fff;   
+        text-transform: uppercase;
+        text-align: center;
+        box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+        font-family: Inter, Arial;
+        border-radius: 15px;
+    }
+    .card3{
+        display: flex;
+        flex-direction: column;
+        width: 180px;
+        margin-left: calc((100% - 360px) / 3);
+        margin-top: 45px; 
+        background-color: #fff;   
+        text-transform: uppercase;
+        text-align: center;
+        box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+        font-family: Inter, Arial;
+        border-radius: 15px;
+    }
+    .card4{
+        display: flex;
+        flex-direction: column;
+        width: 180px;
+        margin-left: calc(((100% - 360px) / 3) * 2 + 180px);
+        margin-top: -290px; 
+        background-color: #fff;   
+        text-transform: uppercase;
+        text-align: center;
+        box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+        font-family: Inter, Arial;
+        border-radius: 15px;
+    }
+    .card5{
+        display: flex;
+        flex-direction: column;
+        width: 180px;
+        margin-left: calc((100% - 360px) / 3);
+        margin-top: 45px; 
+        background-color: #fff;   
+        text-transform: uppercase;
+        text-align: center;
+        box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+        font-family: Inter, Arial;
+        border-radius: 15px;
+    }
+    .card6{
+        display: flex;
+        flex-direction: column;
+        width: 180px;
+        margin-left: calc(((100% - 360px) / 3) * 2 + 180px);
+        margin-top: -290px; 
+        background-color: #fff;   
+        text-transform: uppercase;
+        text-align: center;
+        box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+        font-family: Inter, Arial;
+        border-radius: 15px;
+    }
+    .card7{
+        display: flex;
+        flex-direction: column;
+        width: 180px;
+        margin-left: calc((100% - 360px) / 3);
+        margin-top: 45px; 
+        background-color: #fff;   
+        text-transform: uppercase;
+        text-align: center;
+        box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+        font-family: Inter, Arial;
+        border-radius: 15px;
+    }
+    .card8{
+        display: flex;
+        flex-direction: column;
+        width: 180px;
+        margin-left: calc(((100% - 360px) / 3) * 2 + 180px);
+        margin-top: -290px; 
+        background-color: #fff;   
+        text-transform: uppercase;
+        text-align: center;
+        box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+        font-family: Inter, Arial;
+        border-radius: 15px;
+    }
 }

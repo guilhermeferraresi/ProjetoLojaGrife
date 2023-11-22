@@ -64,3 +64,27 @@ table{
     margin-left: 15px;
     margin-top: 30px;
 }
+iframe{
+    width: 600px;
+    height: 400px;
+}
+
+@media screen and (min-width: 0) and (max-width: 544px){
+    #contato{
+        height: 840px;
+    }
+    #divcontato{
+        flex-direction: column;
+    }
+    iframe{
+        width: 400px;
+        height: 250px;
+    }
+    #map{
+        margin-top: 50px;
+        margin-left: 7%;
+    }
+    table{
+        margin-left: 10%;
+    }
+}

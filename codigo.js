@@ -1,4 +1,4 @@
-let imagens = [];
+let imagens = ['img/imgcar1.png'];
 let index = 0;
 let time = 2000;
 

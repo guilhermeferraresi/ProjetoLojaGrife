@@ -17,3 +17,12 @@
     padding: 15px 60px;
     display: block;
 }
+
+@media screen and (min-width: 0) and (max-width: 544px){
+    #topo{
+        font-size: 20px;
+    }
+    #topo ul li a{
+        padding: 15px 18px;
+    }
+}

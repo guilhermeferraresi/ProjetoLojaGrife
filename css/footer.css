@@ -14,3 +14,16 @@ footer{
     display: flex;
     justify-content: space-between;
 }
+
+@media screen and (min-width: 0) and (max-width: 544px){
+    .logos{
+        width: 70%;
+        margin-left: 15%;
+    }
+    footer{
+        font-size: 19px;
+    }
+    .social{
+        width: 40px;
+    }
+}

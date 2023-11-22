@@ -18,3 +18,9 @@ html{
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+@media screen and (min-width: 0) and (max-width: 544px){
+    #titulo{
+        font-size: 41px;
+    }
+}

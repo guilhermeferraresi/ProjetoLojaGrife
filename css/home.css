@@ -12,6 +12,18 @@
 
 }
 #carrocel{
-    width: 1000px;
-    height: 450px;
+    width: 850px;
+    height: 400px;
+}
+
+@media screen and (min-width: 0) and (max-width: 544px){
+    #divcarrocel{
+        width: 400px;
+        height: 180px;
+        margin-left: calc(50% - 200px);
+    }
+    #carrocel{
+        width: 400px;
+        height: 180px;
+    }
 }
