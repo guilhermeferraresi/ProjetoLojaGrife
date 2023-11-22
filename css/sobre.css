@@ -1,0 +1,11 @@
+#sobre{
+    background-color: #c0c0c0;
+    height: 750px;
+    padding-top: 30px;
+}
+#texto{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    font-size: 23px;
+}

@@ -1,0 +1,66 @@
+#contato{
+    background-color: #232323;
+    color: #fff;
+    width: 100%;
+    height: 540px;
+    padding-top: 20px;
+}
+#divcontato{
+    width: 84%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8%;
+}
+table{
+    background-color: #fff;
+    width: 360px;
+    height: 400px;
+}
+#pmensagem{
+    text-align: right;
+    font-size: 22px;
+    padding-top: 20px;
+    color: #000;
+}
+#pemail{
+    text-align: right;
+    font-size: 22px;
+    padding-top: 30px;
+    color: #000;
+}
+#pnome{
+    text-align: right;
+    font-size: 22px;
+    color: #000;
+    padding-top: 20px;
+}
+#ptelefone{
+    text-align: right;
+    font-size: 22px;
+    padding-top: 30px;
+    color: #000;
+}
+#mensagem{
+    width: 213px;
+    margin-left: 15px;
+    margin-top: 30px;
+    height: 60px;
+}
+#email{
+    width: 210px;
+    height: 23px;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+#nome{
+    width: 210px;
+    height: 23px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+#telefone{
+    width: 210px;
+    height: 23px;
+    margin-left: 15px;
+    margin-top: 30px;
+}

@@ -1,0 +1,17 @@
+#home{
+    width: 100%;
+    height: 850px;
+    background-color: #c0c0c0;
+    padding-top: 35px;
+}
+#divcarrocel{
+    width: 850px;
+    height: 400px;
+    background: #000;
+    margin-left: calc(50% - 425px);
+
+}
+#carrocel{
+    width: 1000px;
+    height: 450px;
+}
